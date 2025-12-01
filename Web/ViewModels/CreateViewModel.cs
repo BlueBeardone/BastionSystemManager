@@ -1,7 +1,6 @@
 namespace Web.ViewModels;
 using System.ComponentModel.DataAnnotations;
 
-
 public class CreateBastionViewModel
 {
     [Required]
