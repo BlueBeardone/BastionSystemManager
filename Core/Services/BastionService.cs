@@ -4,6 +4,8 @@ using Core.Models;
 using Core.Models.Enums;
 using Core.Services;
 using Data;
+using Microsoft.EntityFrameworkCore;
+
 
 public class BastionService : IBastionService
 {

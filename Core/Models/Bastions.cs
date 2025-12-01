@@ -1,5 +1,10 @@
 namespace Core.Models;
 
+using System;
+using System.Collections.Generic;
+using Core.Models.Enums;
+
+
 public class Bastion{
     public int Id { get; set; }
     public string Name { get; set; }

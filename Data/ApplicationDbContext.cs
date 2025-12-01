@@ -2,6 +2,7 @@ namespace Data;
 
 using Core.Models;
 using Core.Models.Enums;
+using Microsoft.EntityFrameworkCore;
 
 public class ApplicationDbContext : DbContext
 {

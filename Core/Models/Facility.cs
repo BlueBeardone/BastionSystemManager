@@ -1,5 +1,8 @@
 namespace Core.Models;
 
+using System.Collections.Generic;
+using Core.Models.Enums;
+
 public abstract class Facility
 {
     public int Id { get; set; }
