@@ -1,3 +1,5 @@
+namespace Core.Models;
+
 public class Bastion{
     public int Id { get; set; }
     public string Name { get; set; }
@@ -13,3 +15,4 @@ public class Bastion{
     public ICollection<Hirelings> Hirelings { get; set; }
     public ICollection<Events> Events { get; set; }
 }
+
