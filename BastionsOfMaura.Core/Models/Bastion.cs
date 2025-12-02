@@ -42,7 +42,7 @@ namespace BastionsOfMaura.Core.Models
         public int TotalDefenders => Defenders.Count(d => d.IsActive);
         public int AvailableDefenderSlots => Defenders.Count(d => d.IsActive && !d.IsDeployed);
         public int TotalHirelings => Hirelings.Count(h => h.IsActive);
-        public int ActiveFacilities => Facilities.Count(f => f.IsCompleted && !f.Destroyed);
+        public int ActiveFacilities => Facilities.Count(f => f.IsCompleted && !f.IsDestroyed);
         public bool IsUnderSiege {get; set; } = false;
         public DateTime? SiegeStartDate {get; set; } = null;
 
