@@ -18,4 +18,9 @@
     <Using Include="Xunit" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\BastionsOfMaura.Web\BastionsOfMaura.Web.csproj" />
+    <ProjectReference Include="..\BastionsOfMaura.Core\BastionsOfMaura.Core.csproj" />
+  </ItemGroup>
+
 </Project>
